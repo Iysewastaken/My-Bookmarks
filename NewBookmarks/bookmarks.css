@@ -1,0 +1,129 @@
+        /*hides scrollbar */  
+        ::-webkit-scrollbar {
+            display: none;
+            scrollbar-width: none;}
+
+        .noscrollbar {
+          -ms-overflow-style: none;  
+          scrollbar-width: none;}
+        /*hide scrollbar ends here (from ws3school.com) :]*/
+
+
+        /* vv body vv */
+        body {
+            background-color:rgb(12, 12, 12);
+            scrollbar-width: none;
+            background-image: url("Images/blurry forrest with triangles.png");
+            background-repeat: no-repeat;
+            background-attachment:scroll;
+            /*background-position: top -75px left -26px;*/
+            background-position: top -75px left 1px;
+            background-size: 100vw auto} 
+        /* ^^ body ^^ */
+
+        /* vv button styles vv */
+        button:hover {
+            background-color: rgba(56, 53, 49, 0.767);
+            box-shadow: 0 6px 8px 0 rgba(27, 27, 27, 0.2), 0 6px 20px 0 rgba(8, 8, 8, 0.19);
+
+            color: rgb(250, 250, 250);
+            font-style: bold;
+            border: 3px solid rgba(151, 151, 151, 0.5);
+            
+            -webkit-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        button:hover span:after {
+            transition: all 0.5s;
+            box-shadow: 0 4px 8px 0 rgba(27, 27, 27, 0.2), 0 3px 10px 0 rgba(8, 8, 8, 0.19);
+        }
+
+
+        button {
+            border-radius: 0px;
+            border: 0px solid rgba(32, 32, 32, 0.2);
+    
+            background-color: rgba(39, 37, 34, 0.767);
+            box-shadow: 0 1px 3px 0 rgba(27, 27, 27, 0.2), 0 6px 20px 0 rgba(8, 8, 8, 0.19);
+    
+            color: #ffffff;
+            font-size: 28px;
+            font-family: 'Segoe UI';
+            font-style:bold;
+                
+            cursor: pointer;
+    
+            -webkit-transition: all 1s ease;
+            transition: box-shadow 0.5s;
+            transition-property:  background-color, border, box-shadow;
+    
+            filter:blur(5);
+            mix-blend-mode: hard-light;
+            }
+        /* ^^ button styles ^^ */
+
+
+
+
+
+        /* vv allignments vv */
+        .left {
+            margin-top: 30px;
+            float:left;
+            margin-left: -6px;
+        }
+
+        .right {
+            margin-top: 30px;
+            float:right;
+            margin-right: -6px;
+        }
+        /* ^^ allignments ^^ */
+
+
+        
+
+        /* vv side buttons vv */
+        .left_buttons {
+            text-align: left;
+            padding-left: 16px;
+            }
+
+        .right_buttons {
+            text-align: right;
+            padding-right: 20px;
+            }
+
+
+        .side_buttons {
+            width: 350px;
+            height: 100px;
+                
+            margin-top: 19px;
+            margin-bottom: 19px;
+            }
+                
+        /* ^^ side buttons ^^ */
+
+        /* vv center buttons vv */
+        div.center_piece {
+            margin-left: calc(50% - 10px);
+            margin-right: calc(50% - 10px);
+        
+            text-align: center;}
+
+        button.center_title {
+            
+            width: 350px;
+            height: 100px;
+            position: absolute;
+
+            width: 100px;
+
+
+
+            margin-top: 190px;
+            margin-bottom: 19px;
+        }
+        /* ^^ center buttons ^^ */
