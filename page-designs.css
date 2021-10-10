@@ -17,8 +17,8 @@
             background-repeat: no-repeat;
             background-attachment:scroll;
             /*background-position: top -75px left -26px;*/
-            background-position: top -75px left 1px;
-            background-size: 100vw auto} 
+            background-position: center;
+            background-size: 220vh}
         /* ^^ body ^^ */
 
         /* vv button styles vv */
@@ -108,8 +108,8 @@
 
         /* vv center buttons vv */
         div.center_piece {
-            margin-left: calc(50% - 10px);
-            margin-right: calc(50% - 10px);
+            margin-left:calc(50% - 260px);
+            margin-right:calc(50% - 260px);
         
             text-align: center;}
 
@@ -117,13 +117,30 @@
             
             width: 350px;
             height: 100px;
-            position: absolute;
+            
 
-            width: 100px;
+            width: 400px;
 
-
-
-            margin-top: 190px;
+            margin-top: 300px;
             margin-bottom: 19px;
+        }
+
+        .center_buttons-pages {
+            margin-top: -16px;
+        }
+
+        button.center_left {
+            margin: 3px;
+            padding: 8px 32px;
+        }
+
+        button.center_mid {
+            margin: 3px;
+            padding: 8px 32px;
+        }
+
+        button.center_right {
+            margin: 3px;
+            padding: 8px 32px;
         }
         /* ^^ center buttons ^^ */
