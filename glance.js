@@ -152,8 +152,8 @@ function Procrastinate() {
 // ^^ Zoom Links ^^ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // vv side buttons vv
-function link1() {location.href = "'" + firstlinkvar + "'";
-  console.log("sending you to..." + "'" + firstlinkvar + "'")}
+function link1() {location.href = firstlinkvar;
+  console.log("sending you to..." +firstlinkvar)}
 
 function link2() {location.href = secondlinkvar;
   console.log("sending you to..." + secondlinkvar)}
