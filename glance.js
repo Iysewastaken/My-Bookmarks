@@ -9,6 +9,7 @@ var seventhlinkvar;
 var eighthlinkvar;
 var ninethlinkvar;
 var tenthlinkvar;
+var yes = "https://bruh";
 
 // ^^ variables ^^
 
@@ -44,6 +45,16 @@ function Zoomlinks() {
     var tenthlinkvar = "https://www.youtube.com/watch?v=MS6Au02VPFI";
     
     console.log("zoomlinks has been deployed");
+    console.log("first link should take you to -> " + firstlinkvar);
+    console.log("second link should take you to -> " + secondlinkvar);
+    console.log("third link should take you to -> " + thirdlinkvar);
+    console.log("fourth link should take you to -> " + fourthlinkvar);
+    console.log("fifth link should take you to -> " + fifthlinkvar);
+    console.log("sixth link should take you to -> " + sixthlinkvar);
+    console.log("seventh link should take you to -> " + seventhlinkvar);
+    console.log("eighth link should take you to -> " + eighthlinkvar);
+    console.log("nineth link should take you to -> " + ninethlinkvar);
+    console.log("tenth link should take you to -> " + tenthlinkvar);
   }
 
 // ^^ Zoom Links ^^ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -80,6 +91,16 @@ function Bookmarks() {
     var firstlinkvar = "https://www.google.com/";
     
     console.log("homelinks has been deployed");
+    console.log("first link should take you to -> " + firstlinkvar);
+    console.log("second link should take you to -> " + secondlinkvar);
+    console.log("third link should take you to -> " + thirdlinkvar);
+    console.log("fourth link should take you to -> " + fourthlinkvar);
+    console.log("fifth link should take you to -> " + fifthlinkvar);
+    console.log("sixth link should take you to -> " + sixthlinkvar);
+    console.log("seventh link should take you to -> " + seventhlinkvar);
+    console.log("eighth link should take you to -> " + eighthlinkvar);
+    console.log("nineth link should take you to -> " + ninethlinkvar);
+    console.log("tenth link should take you to -> " + tenthlinkvar);
   }
 
 // ^^ Zoom Links ^^ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -116,30 +137,50 @@ function Procrastinate() {
     var firstlinkvar = "https://www.google.com/";
     
     console.log("proctrastination links has been deployed");
+    console.log("first link should take you to -> " + firstlinkvar);
+    console.log("second link should take you to -> " + secondlinkvar);
+    console.log("third link should take you to -> " + thirdlinkvar);
+    console.log("fourth link should take you to -> " + fourthlinkvar);
+    console.log("fifth link should take you to -> " + fifthlinkvar);
+    console.log("sixth link should take you to -> " + sixthlinkvar);
+    console.log("seventh link should take you to -> " + seventhlinkvar);
+    console.log("eighth link should take you to -> " + eighthlinkvar);
+    console.log("nineth link should take you to -> " + ninethlinkvar);
+    console.log("tenth link should take you to -> " + tenthlinkvar);
   }
 
 // ^^ Zoom Links ^^ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // vv side buttons vv
-function link1() {location.href = https + firstlinkvar}
+function link1() {location.href = "'" + firstlinkvar + "'";
+  console.log("sending you to..." + "'" + firstlinkvar + "'")}
 
-function link2() {location.href = secondlinkvar}
+function link2() {location.href = secondlinkvar;
+  console.log("sending you to..." + secondlinkvar)}
 
-function link3() {location.href = thirdlinkvar}
+function link3() {location.href = thirdlinkvar;
+  console.log("sending you to..." + thirdlinkvar)}
 
-function link4() {location.href = fourthlinkvar}
+function link4() {location.href = fourthlinkvar;
+  console.log("sending you to..." + fourthlinkvar)}
 
-function link5() {location.href = fifthlinkvar}
+function link5() {location.href = fifthlinkvar;
+  console.log("sending you to..." + fifthlinkvar)}
 
-function link6() {location.href = sixthlinkvar}
+function link6() {location.href = sixthlinkvar;
+  console.log("sending you to..." + sixthlinkvar)}
 
-function link7() {location.href = seventhlinkvar}
+function link7() {location.href = seventhlinkvar;
+  console.log("sending you to..." + seventhlinkvar)}
 
-function link8() {location.href = eighthlinkvar}
+function link8() {location.href = eighthlinkvar;
+  console.log("sending you to..." + eighthlinkvar)}
 
-function link9() {location.href = ninethlinkvar}
+function link9() {location.href = ninethlinkvar;
+  console.log("sending you to..." + ninethlinkvar)}
 
-function link10() {location.href = tenthlinkvar}
+function link10() {location.href = tenthlinkvar;
+  console.log("sending you to..." + tenthlinkvar)}
 
 
 // ^^ side buttons ^^
